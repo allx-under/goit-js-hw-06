@@ -6,7 +6,8 @@ const ingredients = [
   'Herbs',
   'Condiments',
 ];
-const listEl = document.querySelector("#ingredients")
+
+const listEl = document.querySelector("#ingredients");
 
 
 function createItemsList(items) {
