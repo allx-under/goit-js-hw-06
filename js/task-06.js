@@ -4,9 +4,8 @@ inputEl.addEventListener('blur', () => {
     if (inputEl.value.length > inputEl.dataset.length) {
         inputEl.classList.add("invalid");
         inputEl.classList.remove("valid");
-    }
-    if (inputEl.value.length < inputEl.dataset.length) {
+    } else {
         inputEl.classList.add("valid");
-        inputEl.classList.remove("invalid");
+        inputEl.classList.remove("invalid")
     }
 })
